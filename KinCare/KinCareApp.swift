@@ -1,32 +1,16 @@
-//
-//  KinCareApp.swift
-//  KinCare
-//
-//  Created by Zelan Eroz Espanto on 7/14/26.
-//
-
 import SwiftUI
-import SwiftData
 
 @main
 struct KinCareApp: App {
-    var sharedModelContainer: ModelContainer = {
-        let schema = Schema([
-            Item.self,
-        ])
-        let modelConfiguration = ModelConfiguration(schema: schema, isStoredInMemoryOnly: false)
-
-        do {
-            return try ModelContainer(for: schema, configurations: [modelConfiguration])
-        } catch {
-            fatalError("Could not create ModelContainer: \(error)")
-        }
-    }()
+    @State private var didOnboard = false
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            if didOnboard {
+                MainTabView()
+            } else {
+                OnboardingFlow(onFinished: { didOnboard = true })
+            }
         }
-        .modelContainer(sharedModelContainer)
     }
 }
