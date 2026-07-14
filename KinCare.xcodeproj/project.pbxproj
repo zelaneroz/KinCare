@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		A507E46230060CF900D292AD /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = A507E46130060CF900D292AD /* README.md */; };
+		A507E4913006104200D292AD /* 5_home.png in Resources */ = {isa = PBXBuildFile; fileRef = A507E48D3006104200D292AD /* 5_home.png */; };
+		A507E4923006104200D292AD /* 1_signup.png in Resources */ = {isa = PBXBuildFile; fileRef = A507E48B3006104200D292AD /* 1_signup.png */; };
+		A507E4933006104200D292AD /* 7_you.png in Resources */ = {isa = PBXBuildFile; fileRef = A507E48F3006104200D292AD /* 7_you.png */; };
+		A507E4943006104200D292AD /* 6_circle.png in Resources */ = {isa = PBXBuildFile; fileRef = A507E48E3006104200D292AD /* 6_circle.png */; };
+		A507E4953006104200D292AD /* 3_helpmost.png in Resources */ = {isa = PBXBuildFile; fileRef = A507E48C3006104200D292AD /* 3_helpmost.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +34,11 @@
 
 /* Begin PBXFileReference section */
 		A507E46130060CF900D292AD /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		A507E48B3006104200D292AD /* 1_signup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1_signup.png; sourceTree = "<group>"; };
+		A507E48C3006104200D292AD /* 3_helpmost.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3_helpmost.png; sourceTree = "<group>"; };
+		A507E48D3006104200D292AD /* 5_home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5_home.png; sourceTree = "<group>"; };
+		A507E48E3006104200D292AD /* 6_circle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 6_circle.png; sourceTree = "<group>"; };
+		A507E48F3006104200D292AD /* 7_you.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 7_you.png; sourceTree = "<group>"; };
 		A5C6C14A300603010036CE69 /* KinCare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KinCare.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5C6C159300603030036CE69 /* KinCareTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KinCareTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5C6C163300603030036CE69 /* KinCareUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KinCareUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -77,6 +87,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A507E4903006104200D292AD /* Screen_Previews */ = {
+			isa = PBXGroup;
+			children = (
+				A507E48B3006104200D292AD /* 1_signup.png */,
+				A507E48C3006104200D292AD /* 3_helpmost.png */,
+				A507E48D3006104200D292AD /* 5_home.png */,
+				A507E48E3006104200D292AD /* 6_circle.png */,
+				A507E48F3006104200D292AD /* 7_you.png */,
+			);
+			path = Screen_Previews;
+			sourceTree = "<group>";
+		};
 		A5C6C141300603010036CE69 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +107,7 @@
 				A5C6C166300603030036CE69 /* KinCareUITests */,
 				A5C6C14B300603010036CE69 /* Products */,
 				A507E46130060CF900D292AD /* README.md */,
+				A507E4903006104200D292AD /* Screen_Previews */,
 			);
 			sourceTree = "<group>";
 		};
@@ -218,6 +241,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A507E4913006104200D292AD /* 5_home.png in Resources */,
+				A507E4923006104200D292AD /* 1_signup.png in Resources */,
+				A507E4933006104200D292AD /* 7_you.png in Resources */,
+				A507E4943006104200D292AD /* 6_circle.png in Resources */,
+				A507E4953006104200D292AD /* 3_helpmost.png in Resources */,
 				A507E46230060CF900D292AD /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
