@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		A507E46230060CF900D292AD /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = A507E46130060CF900D292AD /* README.md */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		A5C6C15A300603030036CE69 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -24,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A507E46130060CF900D292AD /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		A5C6C14A300603010036CE69 /* KinCare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KinCare.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5C6C159300603030036CE69 /* KinCareTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KinCareTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5C6C163300603030036CE69 /* KinCareUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KinCareUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -79,6 +84,7 @@
 				A5C6C15C300603030036CE69 /* KinCareTests */,
 				A5C6C166300603030036CE69 /* KinCareUITests */,
 				A5C6C14B300603010036CE69 /* Products */,
+				A507E46130060CF900D292AD /* README.md */,
 			);
 			sourceTree = "<group>";
 		};
@@ -212,6 +218,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A507E46230060CF900D292AD /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
