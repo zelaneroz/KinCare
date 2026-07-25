@@ -8,11 +8,45 @@
 
 /* Begin PBXBuildFile section */
 		A507E46230060CF900D292AD /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = A507E46130060CF900D292AD /* README.md */; };
-		A507E4913006104200D292AD /* 5_home.png in Resources */ = {isa = PBXBuildFile; fileRef = A507E48D3006104200D292AD /* 5_home.png */; };
-		A507E4923006104200D292AD /* 1_signup.png in Resources */ = {isa = PBXBuildFile; fileRef = A507E48B3006104200D292AD /* 1_signup.png */; };
-		A507E4933006104200D292AD /* 7_you.png in Resources */ = {isa = PBXBuildFile; fileRef = A507E48F3006104200D292AD /* 7_you.png */; };
-		A507E4943006104200D292AD /* 6_circle.png in Resources */ = {isa = PBXBuildFile; fileRef = A507E48E3006104200D292AD /* 6_circle.png */; };
-		A507E4953006104200D292AD /* 3_helpmost.png in Resources */ = {isa = PBXBuildFile; fileRef = A507E48C3006104200D292AD /* 3_helpmost.png */; };
+		A594E501300F2C59005BC949 /* CapacityCheckInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A594E4F7300F2C59005BC949 /* CapacityCheckInView.swift */; };
+		A594E505300F2C59005BC949 /* CapacityCheckIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = A594E4E7300F2C59005BC949 /* CapacityCheckIn.swift */; };
+		A594E506300F2C59005BC949 /* CareAIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A594E4EE300F2C59005BC949 /* CareAIService.swift */; };
+		A594E50F300F2C59005BC949 /* RootTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A594E4FB300F2C59005BC949 /* RootTabView.swift */; };
+		A594E512300F2C59005BC949 /* KinCareAppIntents.swift in Sources */ = {isa = PBXBuildFile; fileRef = A594E4E5300F2C59005BC949 /* KinCareAppIntents.swift */; };
+		A594E516300F2CAE005BC949 /* KinCareTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = A594E515300F2CAE005BC949 /* KinCareTheme.swift */; };
+		A5A0CF63300F3000004CE9AD /* AppBootstrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A0CF62300F3000004CE9AD /* AppBootstrapper.swift */; };
+		A5A0CF65300F300E004CE9AD /* AddMemberView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A0CF64300F300E004CE9AD /* AddMemberView.swift */; };
+		A5A0CF6F300F33CF004CE9AD /* CalendarService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A0CF6C300F33CF004CE9AD /* CalendarService.swift */; };
+		A5A0CF70300F33CF004CE9AD /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A0CF6D300F33CF004CE9AD /* NotificationService.swift */; };
+		A5A0CF71300F33CF004CE9AD /* TaskCompletionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A0CF6E300F33CF004CE9AD /* TaskCompletionService.swift */; };
+		A5A0CF75300F33E2004CE9AD /* AllCareTasksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A0CF73300F33E2004CE9AD /* AllCareTasksView.swift */; };
+		A5A0CF79300F33F2004CE9AD /* TasksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A0CF76300F33F2004CE9AD /* TasksView.swift */; };
+		A5A0CF7B300F33FF004CE9AD /* TaskRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A0CF7A300F33FF004CE9AD /* TaskRow.swift */; };
+		A5A0CF7D300F376E004CE9AD /* CareCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A0CF7C300F376E004CE9AD /* CareCircleView.swift */; };
+		A5A0CF7F300F3775004CE9AD /* AppRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A0CF7E300F3775004CE9AD /* AppRootView.swift */; };
+		A5A0CF83300F378E004CE9AD /* PhoneAuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A0CF82300F378E004CE9AD /* PhoneAuthService.swift */; };
+		A5A0CF87300F37A8004CE9AD /* AccountModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A0CF84300F37A8004CE9AD /* AccountModels.swift */; };
+		A5A0CF89300F37A8004CE9AD /* CareRecipient.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A0CF86300F37A8004CE9AD /* CareRecipient.swift */; };
+		A5A0CF8B300F37B4004CE9AD /* KinCareApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A0CF8A300F37B4004CE9AD /* KinCareApp.swift */; };
+		A5A0CF8E300F3B1F004CE9AD /* CareMember.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A0CF8D300F3B1F004CE9AD /* CareMember.swift */; };
+		A5A0CF8F300F3B1F004CE9AD /* CareAvailability.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A0CF8C300F3B1F004CE9AD /* CareAvailability.swift */; };
+		A5A0CF91300F3B2C004CE9AD /* CareCrewInviteResolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A0CF90300F3B2C004CE9AD /* CareCrewInviteResolver.swift */; };
+		A5A0CF93300F3B52004CE9AD /* OnboardingFlowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A0CF92300F3B52004CE9AD /* OnboardingFlowView.swift */; };
+		A5A0CF95300F3EDB004CE9AD /* CareTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A0CF94300F3EDB004CE9AD /* CareTask.swift */; };
+		A5A0CF97300F3EE7004CE9AD /* AICareSummaryService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A0CF96300F3EE7004CE9AD /* AICareSummaryService.swift */; };
+		A5A0CF9F300F3F15004CE9AD /* AICareSummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A0CF9D300F3F15004CE9AD /* AICareSummaryView.swift */; };
+		A5A0CFA1300F3F15004CE9AD /* CaregiverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A0CF9E300F3F15004CE9AD /* CaregiverView.swift */; };
+		A5A0CFA4300F3F23004CE9AD /* KinCareAIIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A0CFA3300F3F23004CE9AD /* KinCareAIIcon.swift */; };
+		A5A0CFA7300F4938004CE9AD /* AITaskDraft.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A0CFA6300F4938004CE9AD /* AITaskDraft.swift */; };
+		A5A0CFAB300F4945004CE9AD /* SpeechInputService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A0CFAA300F4945004CE9AD /* SpeechInputService.swift */; };
+		A5A0CFAC300F4945004CE9AD /* AITaskExtractionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A0CFA8300F4945004CE9AD /* AITaskExtractionService.swift */; };
+		A5A0CFAF300F495A004CE9AD /* TodayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A0CFAE300F495A004CE9AD /* TodayView.swift */; };
+		A5A0CFB1300F4966004CE9AD /* HelpRequestComposerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A0CFB0300F4966004CE9AD /* HelpRequestComposerView.swift */; };
+		A5A0CFB3300F4972004CE9AD /* AITaskCaptureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A0CFB2300F4972004CE9AD /* AITaskCaptureView.swift */; };
+		A5A0CFB5300F497B004CE9AD /* AddTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A0CFB4300F497B004CE9AD /* AddTaskView.swift */; };
+		A5A0CFB8300F498E004CE9AD /* InsightCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A0CFB6300F498E004CE9AD /* InsightCard.swift */; };
+		A5A0CFB9300F498E004CE9AD /* MessageComposerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A0CFB7300F498E004CE9AD /* MessageComposerView.swift */; };
+		A5A0CFBB300F49DE004CE9AD /* InsightEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A0CFBA300F49DE004CE9AD /* InsightEngine.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,23 +67,52 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		A507E46130060CF900D292AD /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		A507E48B3006104200D292AD /* 1_signup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1_signup.png; sourceTree = "<group>"; };
-		A507E48C3006104200D292AD /* 3_helpmost.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3_helpmost.png; sourceTree = "<group>"; };
-		A507E48D3006104200D292AD /* 5_home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5_home.png; sourceTree = "<group>"; };
-		A507E48E3006104200D292AD /* 6_circle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 6_circle.png; sourceTree = "<group>"; };
-		A507E48F3006104200D292AD /* 7_you.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 7_you.png; sourceTree = "<group>"; };
+		A507E46130060CF900D292AD /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.xcfilelist; };
+		A594E4E5300F2C59005BC949 /* KinCareAppIntents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KinCareAppIntents.swift; sourceTree = "<group>"; };
+		A594E4E7300F2C59005BC949 /* CapacityCheckIn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapacityCheckIn.swift; sourceTree = "<group>"; };
+		A594E4EE300F2C59005BC949 /* CareAIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CareAIService.swift; sourceTree = "<group>"; };
+		A594E4F7300F2C59005BC949 /* CapacityCheckInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapacityCheckInView.swift; sourceTree = "<group>"; };
+		A594E4FB300F2C59005BC949 /* RootTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootTabView.swift; sourceTree = "<group>"; };
+		A594E515300F2CAE005BC949 /* KinCareTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KinCareTheme.swift; sourceTree = "<group>"; };
+		A5A0CF62300F3000004CE9AD /* AppBootstrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppBootstrapper.swift; sourceTree = "<group>"; };
+		A5A0CF64300F300E004CE9AD /* AddMemberView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMemberView.swift; sourceTree = "<group>"; };
+		A5A0CF6C300F33CF004CE9AD /* CalendarService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarService.swift; sourceTree = "<group>"; };
+		A5A0CF6D300F33CF004CE9AD /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		A5A0CF6E300F33CF004CE9AD /* TaskCompletionService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskCompletionService.swift; sourceTree = "<group>"; };
+		A5A0CF73300F33E2004CE9AD /* AllCareTasksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllCareTasksView.swift; sourceTree = "<group>"; };
+		A5A0CF76300F33F2004CE9AD /* TasksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksView.swift; sourceTree = "<group>"; };
+		A5A0CF7A300F33FF004CE9AD /* TaskRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskRow.swift; sourceTree = "<group>"; };
+		A5A0CF7C300F376E004CE9AD /* CareCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CareCircleView.swift; sourceTree = "<group>"; };
+		A5A0CF7E300F3775004CE9AD /* AppRootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRootView.swift; sourceTree = "<group>"; };
+		A5A0CF82300F378E004CE9AD /* PhoneAuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneAuthService.swift; sourceTree = "<group>"; };
+		A5A0CF84300F37A8004CE9AD /* AccountModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountModels.swift; sourceTree = "<group>"; };
+		A5A0CF86300F37A8004CE9AD /* CareRecipient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CareRecipient.swift; sourceTree = "<group>"; };
+		A5A0CF8A300F37B4004CE9AD /* KinCareApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KinCareApp.swift; sourceTree = "<group>"; };
+		A5A0CF8C300F3B1F004CE9AD /* CareAvailability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CareAvailability.swift; sourceTree = "<group>"; };
+		A5A0CF8D300F3B1F004CE9AD /* CareMember.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CareMember.swift; sourceTree = "<group>"; };
+		A5A0CF90300F3B2C004CE9AD /* CareCrewInviteResolver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CareCrewInviteResolver.swift; sourceTree = "<group>"; };
+		A5A0CF92300F3B52004CE9AD /* OnboardingFlowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingFlowView.swift; sourceTree = "<group>"; };
+		A5A0CF94300F3EDB004CE9AD /* CareTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CareTask.swift; sourceTree = "<group>"; };
+		A5A0CF96300F3EE7004CE9AD /* AICareSummaryService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AICareSummaryService.swift; sourceTree = "<group>"; };
+		A5A0CF9D300F3F15004CE9AD /* AICareSummaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AICareSummaryView.swift; sourceTree = "<group>"; };
+		A5A0CF9E300F3F15004CE9AD /* CaregiverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaregiverView.swift; sourceTree = "<group>"; };
+		A5A0CFA3300F3F23004CE9AD /* KinCareAIIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KinCareAIIcon.swift; sourceTree = "<group>"; };
+		A5A0CFA6300F4938004CE9AD /* AITaskDraft.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AITaskDraft.swift; sourceTree = "<group>"; };
+		A5A0CFA8300F4945004CE9AD /* AITaskExtractionService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AITaskExtractionService.swift; sourceTree = "<group>"; };
+		A5A0CFAA300F4945004CE9AD /* SpeechInputService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechInputService.swift; sourceTree = "<group>"; };
+		A5A0CFAE300F495A004CE9AD /* TodayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayView.swift; sourceTree = "<group>"; };
+		A5A0CFB0300F4966004CE9AD /* HelpRequestComposerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpRequestComposerView.swift; sourceTree = "<group>"; };
+		A5A0CFB2300F4972004CE9AD /* AITaskCaptureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AITaskCaptureView.swift; sourceTree = "<group>"; };
+		A5A0CFB4300F497B004CE9AD /* AddTaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskView.swift; sourceTree = "<group>"; };
+		A5A0CFB6300F498E004CE9AD /* InsightCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsightCard.swift; sourceTree = "<group>"; };
+		A5A0CFB7300F498E004CE9AD /* MessageComposerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageComposerView.swift; sourceTree = "<group>"; };
+		A5A0CFBA300F49DE004CE9AD /* InsightEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsightEngine.swift; sourceTree = "<group>"; };
 		A5C6C14A300603010036CE69 /* KinCare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KinCare.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5C6C159300603030036CE69 /* KinCareTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KinCareTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5C6C163300603030036CE69 /* KinCareUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KinCareUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		A5C6C14C300603010036CE69 /* KinCare */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = KinCare;
-			sourceTree = "<group>";
-		};
 		A5C6C15C300603030036CE69 /* KinCareTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = KinCareTests;
@@ -87,27 +150,92 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		A507E4903006104200D292AD /* Screen_Previews */ = {
+		A594E4E6300F2C59005BC949 /* Intents */ = {
 			isa = PBXGroup;
 			children = (
-				A507E48B3006104200D292AD /* 1_signup.png */,
-				A507E48C3006104200D292AD /* 3_helpmost.png */,
-				A507E48D3006104200D292AD /* 5_home.png */,
-				A507E48E3006104200D292AD /* 6_circle.png */,
-				A507E48F3006104200D292AD /* 7_you.png */,
+				A594E4E5300F2C59005BC949 /* KinCareAppIntents.swift */,
 			);
-			path = Screen_Previews;
+			path = Intents;
+			sourceTree = "<group>";
+		};
+		A594E4EB300F2C59005BC949 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A594E4E7300F2C59005BC949 /* CapacityCheckIn.swift */,
+				A5A0CF84300F37A8004CE9AD /* AccountModels.swift */,
+				A5A0CF86300F37A8004CE9AD /* CareRecipient.swift */,
+				A5A0CF8C300F3B1F004CE9AD /* CareAvailability.swift */,
+				A5A0CF8D300F3B1F004CE9AD /* CareMember.swift */,
+				A5A0CF94300F3EDB004CE9AD /* CareTask.swift */,
+				A5A0CFA6300F4938004CE9AD /* AITaskDraft.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A594E4F1300F2C59005BC949 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				A594E4EE300F2C59005BC949 /* CareAIService.swift */,
+				A5A0CF62300F3000004CE9AD /* AppBootstrapper.swift */,
+				A5A0CF6C300F33CF004CE9AD /* CalendarService.swift */,
+				A5A0CF6D300F33CF004CE9AD /* NotificationService.swift */,
+				A5A0CF6E300F33CF004CE9AD /* TaskCompletionService.swift */,
+				A5A0CF82300F378E004CE9AD /* PhoneAuthService.swift */,
+				A5A0CF90300F3B2C004CE9AD /* CareCrewInviteResolver.swift */,
+				A5A0CF96300F3EE7004CE9AD /* AICareSummaryService.swift */,
+				A5A0CFA8300F4945004CE9AD /* AITaskExtractionService.swift */,
+				A5A0CFAA300F4945004CE9AD /* SpeechInputService.swift */,
+				A5A0CFBA300F49DE004CE9AD /* InsightEngine.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		A594E4F4300F2C59005BC949 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				A5A0CF7A300F33FF004CE9AD /* TaskRow.swift */,
+				A5A0CFA3300F3F23004CE9AD /* KinCareAIIcon.swift */,
+				A5A0CFB6300F498E004CE9AD /* InsightCard.swift */,
+				A5A0CFB7300F498E004CE9AD /* MessageComposerView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		A594E4FE300F2C59005BC949 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A594E4F4300F2C59005BC949 /* Components */,
+				A594E4F7300F2C59005BC949 /* CapacityCheckInView.swift */,
+				A594E4FB300F2C59005BC949 /* RootTabView.swift */,
+				A5A0CF64300F300E004CE9AD /* AddMemberView.swift */,
+				A5A0CF73300F33E2004CE9AD /* AllCareTasksView.swift */,
+				A5A0CF76300F33F2004CE9AD /* TasksView.swift */,
+				A5A0CF7C300F376E004CE9AD /* CareCircleView.swift */,
+				A5A0CF7E300F3775004CE9AD /* AppRootView.swift */,
+				A5A0CF92300F3B52004CE9AD /* OnboardingFlowView.swift */,
+				A5A0CF9D300F3F15004CE9AD /* AICareSummaryView.swift */,
+				A5A0CF9E300F3F15004CE9AD /* CaregiverView.swift */,
+				A5A0CFAE300F495A004CE9AD /* TodayView.swift */,
+				A5A0CFB0300F4966004CE9AD /* HelpRequestComposerView.swift */,
+				A5A0CFB2300F4972004CE9AD /* AITaskCaptureView.swift */,
+				A5A0CFB4300F497B004CE9AD /* AddTaskView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 		A5C6C141300603010036CE69 = {
 			isa = PBXGroup;
 			children = (
-				A5C6C14C300603010036CE69 /* KinCare */,
+				A594E515300F2CAE005BC949 /* KinCareTheme.swift */,
 				A5C6C15C300603030036CE69 /* KinCareTests */,
 				A5C6C166300603030036CE69 /* KinCareUITests */,
 				A5C6C14B300603010036CE69 /* Products */,
 				A507E46130060CF900D292AD /* README.md */,
-				A507E4903006104200D292AD /* Screen_Previews */,
+				A594E4E6300F2C59005BC949 /* Intents */,
+				A594E4F1300F2C59005BC949 /* Services */,
+				A594E4FE300F2C59005BC949 /* Views */,
+				A594E4EB300F2C59005BC949 /* Models */,
+				A5A0CF8A300F37B4004CE9AD /* KinCareApp.swift */,
 			);
 			sourceTree = "<group>";
 		};
@@ -135,9 +263,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				A5C6C14C300603010036CE69 /* KinCare */,
 			);
 			name = KinCare;
 			packageProductDependencies = (
@@ -241,11 +366,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A507E4913006104200D292AD /* 5_home.png in Resources */,
-				A507E4923006104200D292AD /* 1_signup.png in Resources */,
-				A507E4933006104200D292AD /* 7_you.png in Resources */,
-				A507E4943006104200D292AD /* 6_circle.png in Resources */,
-				A507E4953006104200D292AD /* 3_helpmost.png in Resources */,
 				A507E46230060CF900D292AD /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -271,6 +391,45 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5A0CF7B300F33FF004CE9AD /* TaskRow.swift in Sources */,
+				A5A0CF7D300F376E004CE9AD /* CareCircleView.swift in Sources */,
+				A5A0CF87300F37A8004CE9AD /* AccountModels.swift in Sources */,
+				A5A0CFB1300F4966004CE9AD /* HelpRequestComposerView.swift in Sources */,
+				A5A0CF89300F37A8004CE9AD /* CareRecipient.swift in Sources */,
+				A5A0CF79300F33F2004CE9AD /* TasksView.swift in Sources */,
+				A5A0CFA7300F4938004CE9AD /* AITaskDraft.swift in Sources */,
+				A5A0CF65300F300E004CE9AD /* AddMemberView.swift in Sources */,
+				A5A0CFAF300F495A004CE9AD /* TodayView.swift in Sources */,
+				A5A0CFA4300F3F23004CE9AD /* KinCareAIIcon.swift in Sources */,
+				A5A0CFB5300F497B004CE9AD /* AddTaskView.swift in Sources */,
+				A5A0CF95300F3EDB004CE9AD /* CareTask.swift in Sources */,
+				A594E501300F2C59005BC949 /* CapacityCheckInView.swift in Sources */,
+				A5A0CF8E300F3B1F004CE9AD /* CareMember.swift in Sources */,
+				A5A0CF8F300F3B1F004CE9AD /* CareAvailability.swift in Sources */,
+				A594E505300F2C59005BC949 /* CapacityCheckIn.swift in Sources */,
+				A5A0CF93300F3B52004CE9AD /* OnboardingFlowView.swift in Sources */,
+				A5A0CF6F300F33CF004CE9AD /* CalendarService.swift in Sources */,
+				A5A0CF9F300F3F15004CE9AD /* AICareSummaryView.swift in Sources */,
+				A5A0CFB3300F4972004CE9AD /* AITaskCaptureView.swift in Sources */,
+				A5A0CFA1300F3F15004CE9AD /* CaregiverView.swift in Sources */,
+				A5A0CF70300F33CF004CE9AD /* NotificationService.swift in Sources */,
+				A5A0CF71300F33CF004CE9AD /* TaskCompletionService.swift in Sources */,
+				A594E506300F2C59005BC949 /* CareAIService.swift in Sources */,
+				A5A0CFAB300F4945004CE9AD /* SpeechInputService.swift in Sources */,
+				A5A0CFBB300F49DE004CE9AD /* InsightEngine.swift in Sources */,
+				A5A0CFAC300F4945004CE9AD /* AITaskExtractionService.swift in Sources */,
+				A5A0CFB8300F498E004CE9AD /* InsightCard.swift in Sources */,
+				A5A0CFB9300F498E004CE9AD /* MessageComposerView.swift in Sources */,
+				A5A0CF83300F378E004CE9AD /* PhoneAuthService.swift in Sources */,
+				A5A0CF8B300F37B4004CE9AD /* KinCareApp.swift in Sources */,
+				A5A0CF91300F3B2C004CE9AD /* CareCrewInviteResolver.swift in Sources */,
+				A5A0CF97300F3EE7004CE9AD /* AICareSummaryService.swift in Sources */,
+				A5A0CF75300F33E2004CE9AD /* AllCareTasksView.swift in Sources */,
+				A594E50F300F2C59005BC949 /* RootTabView.swift in Sources */,
+				A5A0CF7F300F3775004CE9AD /* AppRootView.swift in Sources */,
+				A594E516300F2CAE005BC949 /* KinCareTheme.swift in Sources */,
+				A5A0CF63300F3000004CE9AD /* AppBootstrapper.swift in Sources */,
+				A594E512300F2C59005BC949 /* KinCareAppIntents.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
